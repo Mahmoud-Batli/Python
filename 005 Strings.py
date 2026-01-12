@@ -28,7 +28,6 @@ print(myString[::2])    # Every second character
 print(myString[1::2])   # Every second character starting from index 1
 print(myString[::-1])   # The whole string in reverse
 
-# String Methods
 
 
 
