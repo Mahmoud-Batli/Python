@@ -90,3 +90,8 @@ r = "One Two Three One Four One"
 print(r.replace("One", "1"))  # Output: "1 Two Three 1 Four 1"
 print(r.replace("One", "1", 2))  # Output: "1 Two Three 1 Four One"
 
+list = ["I", "Love", "Python"]
+print(" ".join(list))  # Output: "I Love Python"
+print("-".join(list))  # Output: "I-Love-Python"
+print("".join(list))  # Output: "ILovePython"
+
